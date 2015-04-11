@@ -34,7 +34,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Modalidade.cs" />
+    <Compile Include="Interfaces\Repository\IModalidadeRepository.cs" />
+    <Compile Include="Interfaces\Repository\IRepositoryBase.cs" />
+    <Compile Include="Interfaces\Repository\ReadOnly\IModalidadeReadOnlyRepository.cs" />
+    <Compile Include="Interfaces\Services\IModalidadeService.cs" />
+    <Compile Include="Interfaces\Services\IServiceBase.cs" />
+    <Compile Include="Interfaces\Specification\ISpecification.cs" />
+    <Compile Include="Interfaces\Validation\IFiscal.cs" />
+    <Compile Include="Interfaces\Validation\IRegra.cs" />
+    <Compile Include="Interfaces\Validation\ISelfValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ModalidadeService.cs" />
+    <Compile Include="Services\ServiceBase.cs" />
+    <Compile Include="Validation\Base\FiscalBase.cs" />
+    <Compile Include="Validation\Documentos\CpfValidation.cs" />
+    <Compile Include="Validation\Regra.cs" />
+    <Compile Include="ValueObjects\ValidationError.cs" />
+    <Compile Include="ValueObjects\ValidationResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Specification\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

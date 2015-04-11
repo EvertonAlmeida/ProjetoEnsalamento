@@ -3,13 +3,14 @@ using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using EA.ProjetoEnsalamento.Domain.Entities;
+using EA.ProjetoEnsalamento.Infra.Data.EntityConfig;
 
 namespace EA.ProjetoEnsalamento.Infra.Data.Context
 {
-    public class ProjetoEnsalamentoContext : DbContext
+    public class ProjetoEnsalamentoContext : BaseDbContext
     {
         public ProjetoEnsalamentoContext()
-            : base("ProjetoEnsalamentoContext")
+            : base("ProjetoEnsalamento")
         {
         }
 
@@ -32,6 +33,9 @@ namespace EA.ProjetoEnsalamento.Infra.Data.Context
 
             modelBuilder.Properties<string>()
                 .Configure(p => p.HasMaxLength(100));
+
+            //ModelConfiguration
+            modelBuilder.Configurations.Add(new ModalidadeConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

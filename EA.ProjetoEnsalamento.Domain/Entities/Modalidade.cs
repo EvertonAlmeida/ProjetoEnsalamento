@@ -12,5 +12,6 @@ namespace EA.ProjetoEnsalamento.Domain.Entities
         public Guid ModalidadeId { get; set; }
         public string Nome { get; set; }
         public DateTime DataCadastro { get; set; }
+
     }
 }
