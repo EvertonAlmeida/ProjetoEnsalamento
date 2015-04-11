@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using AutoMapper;
 using EA.ProjetoEnsalamento.Application.Interfaces;
+using EA.ProjetoEnsalamento.Application.ViewModels;
 using EA.ProjetoEnsalamento.Domain.Entities;
 using EA.ProjetoEnsalamento.Domain.Interfaces.Services;
 using EA.ProjetoEnsalamento.Infra.Data.Context;
-using ProjetoEnsalamento.Application.ViewModels;
 
 namespace EA.ProjetoEnsalamento.Application
 {

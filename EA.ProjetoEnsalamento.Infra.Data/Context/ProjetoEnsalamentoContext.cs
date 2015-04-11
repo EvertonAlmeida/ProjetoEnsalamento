@@ -15,6 +15,7 @@ namespace EA.ProjetoEnsalamento.Infra.Data.Context
         }
 
         public DbSet<Modalidade> Modalidade { get; set; }
+        public DbSet<UnidadeCurricular> UnidadeCurricular { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -36,6 +37,7 @@ namespace EA.ProjetoEnsalamento.Infra.Data.Context
 
             //ModelConfiguration
             modelBuilder.Configurations.Add(new ModalidadeConfiguration());
+            modelBuilder.Configurations.Add(new UnidadeCurricularConfiguration());
 
             base.OnModelCreating(modelBuilder);
         }

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using ProjetoEnsalamento.Application.ViewModels;
+using EA.ProjetoEnsalamento.Application.ViewModels;
 
 namespace EA.ProjetoEnsalamento.Application.Interfaces
 {

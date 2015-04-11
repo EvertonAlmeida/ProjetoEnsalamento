@@ -57,6 +57,7 @@
     <Compile Include="Context\BaseDbContext.cs" />
     <Compile Include="Context\ContextManager.cs" />
     <Compile Include="Context\ProjetoEnsalamentoContext.cs" />
+    <Compile Include="EntityConfig\UnidadeCurricularConfiguration.cs" />
     <Compile Include="EntityConfig\ModalidadeConfiguration.cs" />
     <Compile Include="Interfaces\IContextManager.cs" />
     <Compile Include="Interfaces\IDbContext.cs" />
@@ -66,7 +67,9 @@
     <Compile Include="Repositories\ModalidadeRepository.cs" />
     <Compile Include="Repositories\ReadOnly\ModalidadeReadOnlyRepository.cs" />
     <Compile Include="Repositories\ReadOnly\RepositoryBaseReadOnly.cs" />
+    <Compile Include="Repositories\ReadOnly\UnidadeCurricularReadOnlyRepository.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
+    <Compile Include="Repositories\UnidadeCurricularRepository.cs" />
     <Compile Include="UoW\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>

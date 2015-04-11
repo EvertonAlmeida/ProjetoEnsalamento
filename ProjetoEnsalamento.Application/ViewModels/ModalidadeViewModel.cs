@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace ProjetoEnsalamento.Application.ViewModels
+namespace EA.ProjetoEnsalamento.Application.ViewModels
 {
     public class ModalidadeViewModel
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using EA.ProjetoEnsalamento.Application.Interfaces;
-using ProjetoEnsalamento.Application.ViewModels;
+using EA.ProjetoEnsalamento.Application.ViewModels;
 
 namespace EA.ProjetoEnsalamento.Apresentation.MVC.Controllers
 {

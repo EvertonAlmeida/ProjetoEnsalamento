@@ -63,11 +63,14 @@
     <Compile Include="AutoMapper\ViewModelToDomainMappingProfile.cs" />
     <Compile Include="Interfaces\IAppServiceBase.cs" />
     <Compile Include="Interfaces\IModalidadeAppService.cs" />
+    <Compile Include="Interfaces\IUnidadeCurricularAppService.cs" />
     <Compile Include="ModalidadeAppService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnidadeCurricularAppService.cs" />
     <Compile Include="Validation\ValidationAppError.cs" />
     <Compile Include="Validation\ValidationAppResult.cs" />
     <Compile Include="ViewModels\ModalidadeViewModel.cs" />
+    <Compile Include="ViewModels\UnidadeCurricularViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

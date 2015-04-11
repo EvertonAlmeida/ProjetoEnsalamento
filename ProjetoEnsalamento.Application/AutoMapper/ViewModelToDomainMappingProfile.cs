@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using EA.ProjetoEnsalamento.Application.ViewModels;
 using EA.ProjetoEnsalamento.Domain.Entities;
-using ProjetoEnsalamento.Application.ViewModels;
 
 namespace EA.ProjetoEnsalamento.Application.AutoMapper
 {
@@ -14,6 +14,7 @@ namespace EA.ProjetoEnsalamento.Application.AutoMapper
         protected override void Configure()
         {
             Mapper.CreateMap<ModalidadeViewModel, Modalidade>();
+            Mapper.CreateMap<UnidadeCurricularViewModel, UnidadeCurricular>();
         }
     }
 }
