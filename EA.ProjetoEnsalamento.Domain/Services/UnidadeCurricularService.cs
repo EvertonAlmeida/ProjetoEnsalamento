@@ -19,12 +19,12 @@ namespace EA.ProjetoEnsalamento.Domain.Services
             _unidadeCurricularRepository = unidadeCurricularRepository;
         }
 
-        public IEnumerable<UnidadeCurricular> GetAll()
+        public override IEnumerable<UnidadeCurricular> GetAll()
         {
             return _unidadeCurricularReadOnlyRepository.GetAll();
         }
 
-        public UnidadeCurricular GetById(Guid id)
+        public override UnidadeCurricular GetById(Guid id)
         {
             return _unidadeCurricularReadOnlyRepository.GetById(id);
         } 

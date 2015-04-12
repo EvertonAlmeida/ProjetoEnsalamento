@@ -19,12 +19,12 @@ namespace EA.ProjetoEnsalamento.Domain.Services
             _modalidadeRepository = modalidadeRepository;
         }
 
-        public IEnumerable<Modalidade> GetAll()
+        public override IEnumerable<Modalidade> GetAll()
         {
             return _modalidadeReadOnlyRepository.GetAll();
         }
 
-        public Modalidade GetById(Guid id)
+        public override Modalidade GetById(Guid id)
         {
             return _modalidadeReadOnlyRepository.GetById(id);
         }

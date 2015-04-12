@@ -15,6 +15,7 @@ namespace EA.ProjetoEnsalamento.Application.AutoMapper
         {
             Mapper.CreateMap<ModalidadeViewModel, Modalidade>();
             Mapper.CreateMap<UnidadeCurricularViewModel, UnidadeCurricular>();
+            Mapper.CreateMap<CursoViewModel, Curso>();
         }
     }
 }

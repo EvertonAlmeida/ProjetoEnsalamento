@@ -33,13 +33,17 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Curso.cs" />
     <Compile Include="Entities\Modalidade.cs" />
     <Compile Include="Entities\UnidadeCurricular.cs" />
+    <Compile Include="Interfaces\Repository\ICursoRepository.cs" />
     <Compile Include="Interfaces\Repository\IModalidadeRepository.cs" />
     <Compile Include="Interfaces\Repository\IRepositoryBase.cs" />
     <Compile Include="Interfaces\Repository\IUnidadeCurricularRepository.cs" />
+    <Compile Include="Interfaces\Repository\ReadOnly\ICursoReadOnlyRepository.cs" />
     <Compile Include="Interfaces\Repository\ReadOnly\IModalidadeReadOnlyRepository.cs" />
     <Compile Include="Interfaces\Repository\ReadOnly\IUnidadeCurricularReadOnlyRepository.cs" />
+    <Compile Include="Interfaces\Services\ICursoService.cs" />
     <Compile Include="Interfaces\Services\IModalidadeService.cs" />
     <Compile Include="Interfaces\Services\IServiceBase.cs" />
     <Compile Include="Interfaces\Services\IUnidadeCurricularService.cs" />
@@ -48,18 +52,19 @@
     <Compile Include="Interfaces\Validation\IRegra.cs" />
     <Compile Include="Interfaces\Validation\ISelfValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CursoService.cs" />
     <Compile Include="Services\ModalidadeService.cs" />
     <Compile Include="Services\ServiceBase.cs" />
     <Compile Include="Services\UnidadeCurricularService.cs" />
+    <Compile Include="Specification\Cursos\CursoPossuiModalidadeCadastradoSpecification.cs" />
     <Compile Include="Validation\Base\FiscalBase.cs" />
+    <Compile Include="Validation\Cursos\CursoEstaConsistenteParaCadastroValidation.cs" />
     <Compile Include="Validation\Documentos\CpfValidation.cs" />
     <Compile Include="Validation\Regra.cs" />
     <Compile Include="ValueObjects\ValidationError.cs" />
     <Compile Include="ValueObjects\ValidationResult.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Specification\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
