@@ -1,4 +1,4 @@
-###SGE - Sistema Gerenciador de Escolas <img src="https://github.com/EvertonAlmeida/ProjetoEnsalamento/blob/master/EA.ProjetoEnsalamento.Preesentation.MVC/Content/Images/sge_inlogo.png" width="75" height="75" />
+<img src="https://github.com/EvertonAlmeida/ProjetoEnsalamento/blob/master/EA.ProjetoEnsalamento.Preesentation.MVC/Content/Images/sge_inlogo.png" width="75" height="75" /> ###SGE - Sistema Gerenciador de Escolas 
 
 SGE será um sistema gerenciador de escolas. Este projeto tem como objetivo gerenciar quadro de horário em escolas. Sua função é controlar o quadro de horário dos professores de acordo com as necessidades, conhecimentos e formação. Utilizando a tecnologia ASP.NET MVC 5 e EF 6 Code First.
 
