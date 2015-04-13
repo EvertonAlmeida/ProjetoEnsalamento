@@ -58,6 +58,8 @@
     <Compile Include="Context\ContextManager.cs" />
     <Compile Include="Context\ProjetoEnsalamentoContext.cs" />
     <Compile Include="EntityConfig\CursoConfiguration.cs" />
+    <Compile Include="EntityConfig\FaseConfiguration.cs" />
+    <Compile Include="EntityConfig\GradeCurricularConfiguration.cs" />
     <Compile Include="EntityConfig\UnidadeCurricularConfiguration.cs" />
     <Compile Include="EntityConfig\ModalidadeConfiguration.cs" />
     <Compile Include="Interfaces\IContextManager.cs" />
@@ -66,8 +68,12 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\CursoRepository.cs" />
+    <Compile Include="Repositories\FaseRepository.cs" />
+    <Compile Include="Repositories\GradeCurricularRepository.cs" />
     <Compile Include="Repositories\ModalidadeRepository.cs" />
     <Compile Include="Repositories\ReadOnly\CursoReadOnlyRepository.cs" />
+    <Compile Include="Repositories\ReadOnly\FaseReadOnlyRepository.cs" />
+    <Compile Include="Repositories\ReadOnly\GradeCurricularReadOnlyRepository.cs" />
     <Compile Include="Repositories\ReadOnly\ModalidadeReadOnlyRepository.cs" />
     <Compile Include="Repositories\ReadOnly\RepositoryBaseReadOnly.cs" />
     <Compile Include="Repositories\ReadOnly\UnidadeCurricularReadOnlyRepository.cs" />

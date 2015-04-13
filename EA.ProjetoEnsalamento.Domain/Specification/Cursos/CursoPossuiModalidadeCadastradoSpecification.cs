@@ -4,7 +4,7 @@ using EA.ProjetoEnsalamento.Domain.Interfaces.Specification;
 
 namespace EA.ProjetoEnsalamento.Domain.Specification.Cursos
 {
-    public class CursoPossuiModalidadeCadastradoSpecification: ISpecification<Curso>
+    public class CursoPossuiModalidadeCadastradoSpecification : ISpecification<Curso>
     {
         public bool IsSatisfiedBy(Curso curso)
         {

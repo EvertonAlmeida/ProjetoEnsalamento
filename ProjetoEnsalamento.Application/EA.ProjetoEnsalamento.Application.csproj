@@ -62,8 +62,12 @@
     <Compile Include="AutoMapper\DomainToViewModelMappingProfile.cs" />
     <Compile Include="AutoMapper\ViewModelToDomainMappingProfile.cs" />
     <Compile Include="CursoAppService.cs" />
+    <Compile Include="FaseAppService.cs" />
+    <Compile Include="GradeCurricularAppService.cs" />
     <Compile Include="Interfaces\IAppServiceBase.cs" />
     <Compile Include="Interfaces\ICursoAppService.cs" />
+    <Compile Include="Interfaces\IFaseAppService.cs" />
+    <Compile Include="Interfaces\IGradeCurricularAppService.cs" />
     <Compile Include="Interfaces\IModalidadeAppService.cs" />
     <Compile Include="Interfaces\IUnidadeCurricularAppService.cs" />
     <Compile Include="ModalidadeAppService.cs" />
@@ -72,6 +76,8 @@
     <Compile Include="Validation\ValidationAppError.cs" />
     <Compile Include="Validation\ValidationAppResult.cs" />
     <Compile Include="ViewModels\CursoViewModel.cs" />
+    <Compile Include="ViewModels\FaseViewModel.cs" />
+    <Compile Include="ViewModels\GradeCurricularViewModel.cs" />
     <Compile Include="ViewModels\ModalidadeViewModel.cs" />
     <Compile Include="ViewModels\UnidadeCurricularViewModel.cs" />
   </ItemGroup>

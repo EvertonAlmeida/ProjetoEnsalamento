@@ -13,8 +13,7 @@ namespace EA.ProjetoEnsalamento.Infra.Data.EntityConfig
                 .IsRequired();
 
             Property(c => c.NumeroFase)
-                .IsRequired()
-                .HasMaxLength(2);
+                .IsRequired();
 
             Ignore(c => c.ResultadoValidacao);
 

@@ -1,0 +1,50 @@
+﻿@model EA.ProjetoEnsalamento.Application.ViewModels.GradeCurricularViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>GradeCurricularViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FaseId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaseId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnidadeCurricularId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnidadeCurricularId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CursoId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CursoId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CargaHoraria)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CargaHoraria)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GradeCurricularId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

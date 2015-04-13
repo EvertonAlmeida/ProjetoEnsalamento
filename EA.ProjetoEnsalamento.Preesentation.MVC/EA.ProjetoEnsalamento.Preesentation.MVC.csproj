@@ -131,6 +131,8 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\CursoController.cs" />
+    <Compile Include="Controllers\FaseController.cs" />
+    <Compile Include="Controllers\GradeCurricularController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ModalidadeController.cs" />
     <Compile Include="Controllers\UnidadeCurricularController.cs" />
@@ -188,6 +190,16 @@
     <Content Include="Views\Curso\Delete.cshtml" />
     <Content Include="Views\Curso\Create.cshtml" />
     <Content Include="Views\Curso\Edit.cshtml" />
+    <Content Include="Views\Fase\Index.cshtml" />
+    <Content Include="Views\Fase\Details.cshtml" />
+    <Content Include="Views\Fase\Create.cshtml" />
+    <Content Include="Views\Fase\Edit.cshtml" />
+    <Content Include="Views\Fase\Delete.cshtml" />
+    <Content Include="Views\GradeCurricular\Index.cshtml" />
+    <Content Include="Views\GradeCurricular\Details.cshtml" />
+    <Content Include="Views\GradeCurricular\Create.cshtml" />
+    <Content Include="Views\GradeCurricular\Edit.cshtml" />
+    <Content Include="Views\GradeCurricular\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

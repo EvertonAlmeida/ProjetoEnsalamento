@@ -13,7 +13,7 @@ namespace EA.ProjetoEnsalamento.Domain.Entities
 
         public Guid CursoId { get; set; }
         public string Nome { get; set; }
-        public string NumeroFase { get; set; }
+        public int NumeroFase { get; set; }
         public Guid ModalidadeId { get; set; }
         public virtual Modalidade Modalidade { get; set; }
 
@@ -21,7 +21,7 @@ namespace EA.ProjetoEnsalamento.Domain.Entities
 
         public bool IsValid()
         {
-            var fiscal = new CursoEstaConsistenteParaCadastroValidation();
+            var fiscal = new CursoEstaConsistenteValidation();
 
             ResultadoValidacao = fiscal.Validar(this);
 

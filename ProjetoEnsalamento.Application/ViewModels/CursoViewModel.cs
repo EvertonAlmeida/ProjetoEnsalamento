@@ -20,8 +20,8 @@ namespace EA.ProjetoEnsalamento.Application.ViewModels
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "Preencha o campo Número")]
-        [MaxLength(2, ErrorMessage = "Máximo {0} caracteres")]
         [DisplayName("Número Fase")]
+        [Range(1,10,ErrorMessage = "Informe um número entre {0} e {1}")]
         public string NumeroFase { get; set; }
 
         [Required]

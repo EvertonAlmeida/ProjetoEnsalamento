@@ -21,24 +21,32 @@ namespace EA.ProjetoEnsalamento.Infra.CrossCutting.IoC
             Bind<IModalidadeAppService>().To<ModalidadeAppService>();
             Bind<IUnidadeCurricularAppService>().To<UnidadeCurricularAppService>();
             Bind<ICursoAppService>().To<CursoAppService>();
+            Bind<IFaseAppService>().To<FaseAppService>();
+            Bind<IGradeCurricularAppService>().To<GradeCurricularAppService>();
            
             // service
             Bind(typeof(IServiceBase<>)).To(typeof(ServiceBase<>));
             Bind<IModalidadeService>().To<ModalidadeService>();
             Bind<IUnidadeCurricularService>().To<UnidadeCurricularService>();
             Bind<ICursoService>().To<CursoService>();
+            Bind<IFaseService>().To<FaseService>();
+            Bind<IGradeCurricularService>().To<GradeCurricularService>();
            
             // data repos
             Bind(typeof(IRepositoryBase<>)).To(typeof(RepositoryBase<,>));
             Bind<IModalidadeRepository>().To<ModalidadeRepository>();
             Bind<IUnidadeCurricularRepository>().To<UnidadeCurricularRepository>();
             Bind<ICursoRepository>().To<CursoRepository>();
+            Bind<IFaseRepository>().To<FaseRepository>();
+            Bind<IGradeCurricularRepository>().To<GradeCurricularRepository>();
            
 
             // data repos read only
             Bind<IModalidadeReadOnlyRepository>().To<ModalidadeReadOnlyRepository>();
             Bind<IUnidadeCurricularReadOnlyRepository>().To<UnidadeCurricularReadOnlyRepository>();
             Bind<ICursoReadOnlyRepository>().To<CursoReadOnlyRepository>();
+            Bind<IFaseReadOnlyRepository>().To<FaseReadOnlyRepository>();
+            Bind<IGradeCurricularReadOnlyRepository>().To<GradeCurricularReadOnlyRepository>();
             
             // data configs
             Bind(typeof(IContextManager<>)).To(typeof(ContextManager<>));
