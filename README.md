@@ -1,3 +1,1 @@
-# SGE - Sistema Gerenciador de Escolas
-![alt text](https://github.com/EvertonAlmeida/ProjetoEnsalamento/blob/master/EA.ProjetoEnsalamento.Preesentation.MVC/Content/Images/sge_inlogo.png "SGE")
-
+###SGE - Sistema Gerenciador de Escolas <img src="https://github.com/EvertonAlmeida/ProjetoEnsalamento/blob/master/EA.ProjetoEnsalamento.Preesentation.MVC/Content/Images/sge_inlogo.png" width="75" height="75" />
