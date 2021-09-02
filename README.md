@@ -1,8 +1,9 @@
-###SGE - Sistema Gerenciador de Escolas <img src="https://github.com/EvertonAlmeida/ProjetoEnsalamento/blob/master/EA.ProjetoEnsalamento.Preesentation.MVC/Content/Images/sge_inlogo.png" width="75" height="75" />
+###SGE - Sistema Gerenciador de Escolas - School Management System
+<img src="https://github.com/EvertonAlmeida/ProjetoEnsalamento/blob/master/EA.ProjetoEnsalamento.Preesentation.MVC/Content/Images/sge_inlogo.png" width="75" height="75" />
 
-SGE será um sistema gerenciador de escolas. Este projeto tem como objetivo gerenciar quadro de horário em escolas. Sua função é controlar o quadro de horário dos professores de acordo com as necessidades, conhecimentos e formação. Utilizando a tecnologia ASP.NET MVC 5 e EF 6 Code First.
+SGE will be a school management system. This project aims to manage timetables in schools. Its function is to control the timetable of teachers according to needs, knowledge and training. Using ASP.NET MVC 5 and EF 6 Code First technology.
 
-### Tecnologias:
+### Technologies:
 
 * ASP.NET MVC 5;
 * Entity Framework 6 para escrita de dados;
@@ -11,11 +12,11 @@ SGE será um sistema gerenciador de escolas. Este projeto tem como objetivo gere
 * AutoMapper;
 * Bootstrap.
 
-### Padrões e práticas:
+### Standards and practices:
 
 * Domain Drive Design (DDD);
-* Teste com NUnit;
-* Padrão Repository e Repository genérico;
+* Test com NUnit;
+* Standard Repository and Generic Repository;
 * Unit of Work;
-* Injeção de dependência;
+* Dependency injection;
 * Bootstrap.
